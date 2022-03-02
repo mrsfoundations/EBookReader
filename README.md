@@ -2,6 +2,14 @@
 
 A new Flutter project.
 
+Screenshots
+![ScreenShot](https://raw.github.com/kbartiquel/ebookreader/main/Screens/1.png)
+![ScreenShot](https://raw.github.com/kbartiquel/ebookreader/main/Screens/2.png)
+![ScreenShot](https://raw.github.com/kbartiquel/ebookreader/main/Screens/3.png)
+![ScreenShot](https://raw.github.com/kbartiquel/ebookreader/main/Screens/4.png)
+![ScreenShot](https://raw.github.com/kbartiquel/ebookreader/main/Screens/5.png)
+![ScreenShot](https://raw.github.com/kbartiquel/ebookreader/main/Screens/6.png)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
