@@ -42,11 +42,11 @@ class BooksItem extends StatelessWidget {
                   children: [
                     const SizedBox(
                       height: 150,
-                      child: Center(child: CircularProgressIndicator()),
                     ),
                     Center(
-                      child: FadeInImage.memoryNetwork(
-                          placeholder: kTransparentImage, image: url),
+                     child:Image.network('https://picsum.photos/250?image=9'),
+                      // FadeInImage.memoryNetwork(
+                      //     placeholder: kTransparentImage, image: url),
                     )
                   ],
                 ),

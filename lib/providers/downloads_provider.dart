@@ -24,6 +24,7 @@ class DownloadsProvider extends ChangeNotifier {
     return bookPath;
   }
 
+
   void setIsDownloaded(bool value) {
     isDownloaded = value;
     notifyListeners();
@@ -31,7 +32,7 @@ class DownloadsProvider extends ChangeNotifier {
 
   // check if book has been downloaded before
   checkDownload() async {
-    print('chheck $bookId');
+    print('check $bookId');
     List downloads = await DownloadDatabase().check({'id': bookId});
 
     print(downloads.length);

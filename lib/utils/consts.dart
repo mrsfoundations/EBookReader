@@ -2,7 +2,7 @@ import 'dart:math';
 
 class Constants {
   //App related strings
-  static String appName = 'Classic e-Books';
+  static String appName = 'E-BookReader';
   static String downloadsName = 'Downloads';
   static String databasePrefix = '/ebook';
 

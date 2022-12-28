@@ -28,6 +28,7 @@ class _MyAppState extends State<MyApp> {
         ChangeNotifierProvider(create: (context) => DownloadsProvider())
       ],
       child: MaterialApp(
+        debugShowCheckedModeBanner: false,
         title: Constants.appName,
         theme: ThemeData(
             primaryColor: Colors.blue,

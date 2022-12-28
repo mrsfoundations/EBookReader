@@ -68,8 +68,9 @@ class _BookDetailsScreenState extends State<BookDetailsScreen2> {
     String description = bookdetails[0]['summary'];
     String publicationdate = bookdetails[0]['dcterms:issued'].toString();
 
-    void downloadEpub(String url, String filename) async {
-      downloadsProvider.downloadFile(context, url, filename, imageUrl);
+    void downloadEpub(String url, String filename)
+    async {
+     await downloadsProvider.downloadFile(context, url, filename, imageUrl);
     }
 
     void openEpub(DownloadsProvider value) {
@@ -131,9 +132,7 @@ class _BookDetailsScreenState extends State<BookDetailsScreen2> {
                                 border: Border.all(
                                     width: 2, color: Colors.black12)),
                             width: MediaQuery.of(context).size.width * .35,
-                            child: FadeInImage.memoryNetwork(
-                                placeholder: kTransparentImage,
-                                image: imageUrl),
+                            child: Image.network('https://picsum.photos/250?image=9'),
                           ),
                         ),
                       ),
